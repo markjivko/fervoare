@@ -1,0 +1,9 @@
+app/errors/log/*
+core/errors/log/*
+upload/*
+
+!.gitkeep
+!upload
+!upload/.htaccess
+!upload/php.ini
+!upload/php5.ini

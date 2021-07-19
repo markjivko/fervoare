@@ -1,0 +1,426 @@
+@font-face {
+    font-family: "UbuntuTitle";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../img/fonts/ubuntu/font.eot") format("embedded-opentype"), url("../img/fonts/ubuntu/font.woff") format("woff"), url("../img/fonts/ubuntu/font.svg") format("svg");
+}
+@font-face {
+    font-family: "Qlassik";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../img/fonts/qlassik/font.eot") format("embedded-opentype"), url("../img/fonts/qlassik/font.woff") format("woff"), url("../img/fonts/qlassik/font.svg") format("svg");
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    background: url("../img/bg3.png") repeat fixed 0 0 transparent;
+    line-height: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family:Qlassik;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+nav ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+a {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ins {
+    background-color: #FFFF99;
+    color: #000000;
+    text-decoration: none;
+}
+mark {
+    background-color: #FFFF99;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000000;
+    cursor: help;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    border-color: #CCCCCC;
+    -webkit-box-shadow:0px 0px 1px #FFFFFF;
+    box-shadow:0px 0px 1px #FFFFFF;
+    border-style: dashed none none;
+    border-width: 1px 0 0;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+input, select {
+    vertical-align: middle;
+}
+input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, button::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear {
+    clear: both;
+    display: block;
+}
+#main-wrapper {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+}
+section {clear:both !important;}
+#top {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#D9E6E8');
+    background: -moz-linear-gradient(center top , #FFFFFF, #D9E6E8) repeat scroll 0 0 #fff;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), to(#D9E6E8));
+    -webkit-box-shadow: 1px 1px 2px #888888;
+    box-shadow: 1px 1px 2px #888888;
+    background-color:#fff;
+    height: 40px;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+#top #gear {
+    float: right;
+    margin: 5px 15px 0 0;
+}
+#top #logo {
+    background: url("../img/logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 40px;
+    text-indent: -1000em;
+    width: 222px;
+}
+#top #logo:hover {
+    background-position: 0 -40px;
+}
+#top > * {
+    float: left;
+}
+#top-clear {
+    background: url("../img/bg2.jpg") repeat scroll 0 0 transparent;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    position: fixed;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    top: 39px;
+    width: 99%;
+    z-index: 2;
+    -webkit-box-shadow: -7px 13px 7px #fff;
+    box-shadow: -7px 13px 7px #fff;
+}
+#ferv_addons ul li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+#ferv_addons ul li > * {
+    color: inherit;
+    display: inline-block;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+#ferv_addons ul li.current, #ferv_addons ul li:hover {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    background-color: white;
+    background: -moz-linear-gradient(center top , #D9E6E8, #FFF) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, center top, center bottom, from(#D9E6E8), to(#FFF));
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1) inset;
+}
+#ferv_addons ul li:hover {
+    color: #006878;
+}
+#sidebar {
+    background: url("../img/bg.jpg") repeat scroll 100% 0 transparent;
+    border-color: transparent #C6C9CE transparent transparent;
+    border-style: solid;
+    border-width: 1px;
+    height: 100%;
+    padding: 25px 0;
+    position: fixed;
+    text-align: right;
+    top: 57px;
+    width: 230px;
+    z-index: 2;
+}
+#ferv_methods ul li {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px 0;
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+#ferv_methods ul li * {
+    color: #006878;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    padding-right: 20px;
+}
+#ferv_methods ul li.current {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-color: #AAAAAA;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+#ferv_methods ul li.current * {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333333;
+}
+#ferv_methods ul li:hover {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#D9E6E8');
+    background: -moz-linear-gradient(center top , #FFFFFF, #D9E6E8) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), to(#D9E6E8));
+    border-color: #AAAAAA;
+    -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#ferv_methods ul li:hover * {
+    color: #333333;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+#ferv_methods ul li:hover > * {
+    -webkit-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    padding-right: 35px;
+}
+#sidebar #copy {
+    bottom: 0;
+    color: #006878;
+    font-size: 12px;
+    padding: 10px 0;
+    position: fixed;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    width: 223px;
+    z-index: -1;
+}
+#content {
+    height: 313px;
+    left: 250px;
+    padding: 25px;
+    position: absolute;
+    top: 58px;
+    z-index: 1;
+    min-width:700px;
+}
+#content ul li, #content ol li {
+    margin: 4px 0 4px 15px;
+    padding: 5px 10px 5px 15px;
+    list-style: none;
+    line-height: 1.2;
+    display: block;
+    border-radius: 3px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#D9E6E8');
+    background: -moz-linear-gradient(center top , #FFFFFF, #D9E6E8) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), to(#D9E6E8));
+    -webkit-box-shadow: 0 0 7px #D9E6E8, 0 0 4px #FFFFFF inset;
+    box-shadow: 0 0 7px #D9E6E8, 0 0 4px #FFFFFF inset;
+    text-shadow: 1px 1px 0px #fff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+h1, h2, h3, h4, h5 {
+    color: #AAAAAA;
+    text-shadow: 2px 2px 1px #FFFFFF;
+    font-size:24px;
+    line-height:24px;
+}
+h2 {
+    font-size: 18px;
+    line-height: 20px;
+}
+h3 {
+    font-size: 17px;
+    line-height: 18px;
+}
+h4 {
+    font-size: 16px;
+    line-height: 16px;
+}
+h5 {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+#notif {
+    background-color: #E9F0F2;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    -webkit-box-shadow: 0 0 4px #FFFFFF inset;
+    box-shadow: 0 0 4px #FFFFFF inset;
+    display: none;
+    height: 13px;
+    line-height: 13px;
+    margin: 3px 0 0;
+    padding: 0 7px 0 16px;
+    position: relative;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 100%;
+    z-index: 10;
+    font-family:monospace;
+}
+.notif_success, .notif_error, .notif_info, .notif_warning, .notif_loading {
+    background-image: url("../img/notif.png");
+    background-position: 1px 0;
+    background-repeat: no-repeat;
+}
+.notif_success {
+    background-color: #CAFFDA !important;
+}
+.notif_error {
+    background-color: #FFC9C9 !important;
+    background-position: 1px -13px;
+}
+.notif_info {
+    background-color: #E9F0F2 !important;
+    background-position: 1px -26px;
+}
+.notif_warning {
+    background-color: #FFEDC9 !important;
+    background-position: 1px -39px;
+}
+.notif_loading {
+    background-color: #F2F2F2 !important;
+    background-position: 1px -52px;
+}
+
+#loadingPage {
+    background: url("../img/pattern.png") repeat scroll 0 0 rgba(222, 233, 235, 0.6);
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:10000;
+}
+#loadingPage > div {
+    background: url("../img/loading.gif") no-repeat scroll 45% 12px transparent;
+    -webkit-box-shadow: 0 0 29px #FFFFFF, 0 0 10px #ccc inset;
+    box-shadow: 0 0 29px #FFFFFF, 0 0 10px #ccc inset;
+    color: #474B4C;
+    display: inline-block;
+    font-size: 30px;
+    height: 34px;
+    line-height: 35px;
+    margin-top: 250px;
+    padding: 10px 0;
+    text-shadow: 0 1px 1px #FFFFFF;
+    vertical-align: bottom;
+    width: 100%;
+    text-indent: 47%;
+}
+#error {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#D9E6E8');
+    background: -moz-linear-gradient(center top , #FFFFFF, #D9E6E8) repeat scroll 0 0 #fff;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), to(#D9E6E8));
+    border: 1px solid #DDDDDD;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0 0 10px #CCCCCC, 0 0 6px #FFFFFF inset;
+    box-shadow: 0 0 10px #CCCCCC, 0 0 6px #FFFFFF inset;
+    margin: 150px auto;
+    padding: 20px;
+    width: 300px;
+    text-align:center;
+    text-shadow:1px 1px 0px #fff;
+}
+#error form input, #error form label {
+    width: 100%;
+    margin: 4px 0;
+    padding: 8px 4px;
+}
+#ferv_error {
+    color: red;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 0px #fff;
+}
+#error #logo {
+    background: url(../img/logo.png) no-repeat 0 0 transparent;
+    height: 40px;
+    margin: 10px auto;
+    width: 222px;
+    cursor: pointer;
+}
+#error #logo a {
+    display:block;
+    width:100%;
+    height: 100%;
+    text-indent:-1000em;
+}
+#error #logo:hover {
+    background-position: 0 -40px;
+}

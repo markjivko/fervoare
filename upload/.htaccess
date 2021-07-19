@@ -1,0 +1,14 @@
+# No execution of PHP files
+AddType text/plain .php .php3 .php4 .phtml .pl .py .jsp .asp .htm .shtml .sh .cgi .tpl .inc .log .sql .ini
+
+# Allow all files
+<FILES ~ "\.tpl$|\.inc$|\.log|\.sql$">
+    Order allow,deny
+    Allow from all
+</FILES>
+
+# No CGI
+Options -ExecCGI
+
+# No file listing
+Options -Indexes

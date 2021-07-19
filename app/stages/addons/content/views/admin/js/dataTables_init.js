@@ -1,0 +1,1 @@
+$.fn.dataTable && $.each($('table.data'),function(){$(this).dataTable()});

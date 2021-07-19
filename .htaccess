@@ -1,0 +1,38 @@
+# Set the default handler
+DirectoryIndex index.php
+
+# Make the application handle any 404 errors
+ErrorDocument 404 index.php
+
+# Requires mod_expires to be enabled.
+<IfModule mod_expires.c>
+  # Enable expirations.
+  ExpiresActive On
+
+  # Cache all files for 2 weeks after access (A)
+  ExpiresDefault A1209600
+
+  <FilesMatch \.php$>
+    # Do not allow PHP scripts to be cached
+    ExpiresActive Off
+  </FilesMatch>
+</IfModule>
+
+# Entity Tags
+FileETag none
+
+# Remove index.php from the url string and don't allow sniffing
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #Godaddy Accounts# RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond $1 !^(index\.php|robots\.txt)
+    RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+</IfModule>
+
+# Do not allow access to files
+<FILES ~ "\.tpl$|\.inc$|\.log$|\.sql$|\.ini$">
+    Order allow,deny
+    Deny from all
+</FILES>

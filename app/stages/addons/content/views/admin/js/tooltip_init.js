@@ -1,0 +1,1 @@
+$.fn.tooltip && $('[title]').tooltip({offset:[5,0],effect:'toggle',position:'bottom right'}).dynamic({ bottom:{direction:'down',bounce: true } });

@@ -1,0 +1,1 @@
+$.fn.uniform && $("input, textarea, select, button, .btn, .btn > *").not("input[type=file],input[type=hidden],.nouniform").uniform();
