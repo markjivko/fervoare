@@ -8,6 +8,8 @@
 
 A tiny content management system
 
+Project [created in 2012](https://code.google.com/archive/p/fervoare-cms/) and ported to GitHub in 2021.
+
 ## Getting started
 
 Assuming you have installed an Apache server on your machine, navigate to your `www` folder and run the following command:
