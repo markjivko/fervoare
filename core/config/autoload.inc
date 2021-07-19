@@ -13,6 +13,6 @@
 $objects = array('view', 'error');
 
 // Standard helpers
-$helpers = array('encrypt', 'recursion');
+$helpers = array('encrypt', 'recursion', 'html');
     
 /* End Of File <autoload.inc> */

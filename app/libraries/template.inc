@@ -856,7 +856,7 @@ class template_l {
             $str = array();
 
             // Add the logo
-            isset($meta['logo']) ? $str[] = tag('link', array('rel' => 'icon', 'type' => 'image/x-icon', 'href' => $meta['logo']), null, true) : null;
+            isset($meta['logo']) ? $str[] = tag('link', array('rel' => 'icon', 'type' => 'image/ico', 'href' => $meta['logo']), null, true) : null;
 
             // Add the Search XML reference
             isset($meta['search']) ? $str[] = tag('link', array('rel' => 'search', 'type' => 'application/opensearchdescription+xml', 'href' => $meta['search']['href'], 'title' => $meta['search']['title']), null, true) : null;
