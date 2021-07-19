@@ -16,9 +16,20 @@ Assuming you have installed an Apache server on your machine, navigate to your `
 git clone https://github.com/stephino/fervoare .
 ```
 
+Fervoare CMS comes with a 1-click installer so all you need to do is to create a MySQL database.
+
+## Quick demo
+
+You can access this [static DEMO](https://stephino.github.io/fervoare/) for a very short introduction to the CMS or
+you can navigate to the following address:
+
+```
+http://localhost
 ```
 
-## MVC
+## An OctoMS project
+
+Extending the design and user roles is easy with the MVC architecture of [OctoMS](https://github.com/Stephino/octoms).
 
 **Warning!**
 
