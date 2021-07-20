@@ -12,7 +12,7 @@ Project [created in 2012](https://code.google.com/archive/p/fervoare-cms/) and p
 
 ## Getting started
 
-Assuming you have installed an Apache server on your machine, navigate to your `www` folder and run the following command:
+Assuming you have installed a [LAMP Stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) on your machine, navigate to your `www` folder and run the following command:
 
 ```
 git clone https://github.com/stephino/fervoare .
