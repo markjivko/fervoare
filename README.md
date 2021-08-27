@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://stephino.github.io/fervoare/">
+    <a href="https://markjivko.com/fervoare/">
         <img src="https://repository-images.githubusercontent.com/387422631/e61ed666-4818-49c2-8035-db67f3897d72"/>
     </a>
 </p>
@@ -24,7 +24,7 @@ Softpedia tested Fervoare CMS [a while ago](https://webscripts.softpedia.com/scr
 
 ## Quick demo
 
-You can access this [static DEMO](https://stephino.github.io/fervoare/) for a very short introduction to the CMS or
+You can access this [static DEMO](https://markjivko.com/fervoare/) for a very short introduction to the CMS or
 you can navigate to the following address:
 
 ```
