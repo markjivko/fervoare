@@ -2,7 +2,7 @@
 /*
  * @package   OctoMS
  * @subpackage    WP.OctoMS
- * @copyright (c) 2011 Mark Jivko <stephino.team@gmail.com>
+ * @copyright (c) 2011 Mark Jivko https://markjivko.com
  * @license   GPL v3+ (https://gnu.org/licenses/gpl-3.0.txt)
  * 
  * Redistributions of files must retain the above copyright notice.

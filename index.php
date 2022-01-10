@@ -1,7 +1,7 @@
 <?php
 /**
  * @package   OctoMS
- * @copyright (c) 2011 Mark Jivko <stephino.team@gmail.com>
+ * @copyright (c) 2011 Mark Jivko https://markjivko.com
  * @license   GPL v3+ (https://gnu.org/licenses/gpl-3.0.txt)
  * 
  * This program is distributed in the hope that it will be useful,

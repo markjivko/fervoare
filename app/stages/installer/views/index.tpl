@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-EN">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="generator" content="Fervoare CMS https://github.com/Stephino/fervoare" />
+        <meta name="generator" content="Fervoare CMS https://github.com/markjivko/fervoare" />
         <meta name="author" content="Mark Jivko" />
         <meta name="copyright" content="Fervoare CMS" />
         <meta name="robots" content="noindex,nofollow" />

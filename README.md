@@ -15,7 +15,7 @@ Project [created in 2012](https://code.google.com/archive/p/fervoare-cms/) and p
 Assuming you have installed a [LAMP Stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) on your machine, navigate to your `www` folder and run the following command:
 
 ```
-git clone https://github.com/stephino/fervoare .
+git clone https://github.com/markjivko/fervoare .
 ```
 
 Fervoare CMS comes with a 1-click installer so all you need to do is to create a MySQL database.
@@ -33,7 +33,7 @@ http://localhost
 
 ## An OctoMS project
 
-Extending the design and user roles is easy with the MVC architecture of [OctoMS](https://github.com/Stephino/octoms).
+Extending the design and user roles is easy with the MVC architecture of [OctoMS](https://github.com/markjivko/octoms).
 
 **Warning!**
 
