@@ -1,10 +1,10 @@
+# Fervoare CMS
+
 <p align="center">
     <a href="https://markjivko.com/fervoare/">
         <img src="https://repository-images.githubusercontent.com/387422631/e61ed666-4818-49c2-8035-db67f3897d72"/>
     </a>
 </p>
-
-# Fervoare CMS
 
 A tiny content management system
 
