@@ -20,8 +20,6 @@ git clone https://github.com/markjivko/fervoare .
 
 Fervoare CMS comes with a 1-click installer so all you need to do is to create a MySQL database.
 
-Softpedia tested Fervoare CMS [a while ago](https://webscripts.softpedia.com/script/Content-Management/Fervoare-CMS-80070.html).
-
 ## Quick demo
 
 You can access this [static DEMO](https://markjivko.com/fervoare/) for a very short introduction to the CMS or
