@@ -1,7 +1,7 @@
 # Fervoare CMS
 
 <p align="center">
-    <a href="https://markjivko.com/fervoare/">
+    <a href="https://markjivko.com/fervoare-cms/">
         <img src="https://repository-images.githubusercontent.com/387422631/e61ed666-4818-49c2-8035-db67f3897d72"/>
     </a>
 </p>
@@ -22,7 +22,7 @@ Fervoare CMS comes with a 1-click installer so all you need to do is to create a
 
 ## Quick demo
 
-You can access this [static DEMO](https://markjivko.com/fervoare/) for a very short introduction to the CMS or
+You can access this [static DEMO](https://markjivko.com/fervoare-cms/) for a very short introduction to the CMS or
 you can navigate to the following address:
 
 ```
